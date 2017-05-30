@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "438587655664",
+    "firebase_url": "https://farmpm-b0f9d.firebaseio.com",
+    "project_id": "farmpm-b0f9d",
+    "storage_bucket": "farmpm-b0f9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438587655664:android:4f4f769777a6415a",
+        "android_client_info": {
+          "package_name": "ke.co.realcodes.farmpm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438587655664-q2ks5abh54jbgc0n8pqmj46oeopgb3r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ke.co.realcodes.farmpm",
+            "certificate_hash": "511f3ff7640d9f5197602cab3575d4a08f4856a4"
+          }
+        },
+        {
+          "client_id": "438587655664-hu38klignpigmlv048pq2pb7ec3e10lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz0SQl_CdMoHIcO2RMlHvnlLPn7MOPDhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438587655664-hu38klignpigmlv048pq2pb7ec3e10lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

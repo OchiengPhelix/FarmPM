@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">FarmPM</string>
+
+    <!-- welcome -->
+    <string name="welcome_nav">Welcome to FarmPM</string>
+    <string name="title_activity_login">Phone verification</string>
+    <string name="terms_message">You need to accept our <a href="http://fundme.realcodes.co.ke">Terms of Service and Privacy Policy</a> to continue</string>
+    <string name="terms_button_string">ACCEPT AND CONTINUE</string>
+
+    <!-- login -->
+    <string name="login_nav">Your phone number</string>
+    <string name="verification_text">FarmPM will send a verification code to you. Enter your phone number:</string>
+    <string name="next_button_text">NEXT</string>
+    <string name="carrier_sms_text">Carrier SMS charges may apply</string>
+
+    <!-- verify -->
+    <string name="verify_nav">Verification</string>
+    <string name="verify_text_for_input">Enter 6-digit code</string>
+    <string name="resend_code_text">Resend code in</string>
+    <string name="verify_text">Wrong number?</string>
+    <string name="verify_button_text">VERIFY</string>
+
+    <!-- profile -->
+    <string name="title_activity_profile">Profile Info</string>
+    <string name="profile_info_text">Please enter your profile information:</string>
+    <string name="login_settings">Terms of service</string>
+    <string name="finish_button_text">FINISH</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_fname">First name</string>
+    <string name="hint_lname">Last name</string>
+    <string name="hint_location">Place of residence</string>
+    <string name="title_activity_home">FarmPM</string>
+
+    <!-- terms -->
+    <string name="terms_nav">Terms and Conditions</string>
+    <string name="terms_text">
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+        Terms here\n
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

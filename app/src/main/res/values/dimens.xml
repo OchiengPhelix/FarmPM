@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- welcome -->
+    <dimen name="terms_button_width">250dp</dimen>
+    <dimen name="space_after_terms_button">25dp</dimen>
+    <dimen name="margin_terms_button">55dp</dimen>
+
+    <!-- buttons -->
+    <dimen name="button_height">40dp</dimen>
+
+    <!-- login -->
+    <dimen name="margin_country_spinner">45dp</dimen>
+    <dimen name="margin_next_button">55dp</dimen>
+    <dimen name="charges_font">10dp</dimen>
+
+    <!-- profile -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">300dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- floating edit text -->
+    <dimen name="floating_hint">14dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+</resources>

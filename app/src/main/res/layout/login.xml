@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="ke.co.realcodes.farmpm.LoginActivity"
+    >
+
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/login_actionbar" />
+
+        <TextView
+            android:id="@+id/login_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verification_text"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/margin_country_spinner"
+            android:layout_marginRight="@dimen/margin_country_spinner">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:maxLength="15"
+                android:textCursorDrawable="@drawable/cursor"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:met_iconLeft="@mipmap/ic_phone"
+                app:met_iconPadding="0dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/next_button_text"
+            android:textColor="@color/terms_button_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            fbutton:buttonColor="@color/terms_button_color"
+            fbutton:shadowColor="@color/terms_button_color"
+            fbutton:shadowEnabled="false"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="5dp" />
+
+        <TextView
+            android:id="@+id/sms_carrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/carrier_sms_text"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/space_after_terms_button"
+            android:textSize="@dimen/charges_font" />
+    </LinearLayout>
+</RelativeLayout>
